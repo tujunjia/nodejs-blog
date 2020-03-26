@@ -1,0 +1,90 @@
+a {
+  
+  text-decoration-line: none;
+}
+h1 {
+  text-align: center;
+}
+.box {
+  width: 300px;
+  margin: 20px auto;
+}
+.shareBt {
+  display: block;
+}
+.contWrap {
+  width: 400px;
+  height: 400px;
+  margin: 0px auto;
+}
+.contWrap .qrcode {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  margin: 20px auto;
+  background-image: url("../../img/tooterbg.jpg");
+  background-position: left top;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.contWrap .qrcode canvas {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+.contWrap .qrcode canvas img {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  right: 190px;
+  bottom: 190px;
+  z-index: 99999;
+} 
+.contWrap .formTable .qrcode .formTable {
+  height: 68px;
+}
+.contWrap .formTable .qrcode .formTable label {
+  display: inline-block;
+  
+}
+.contWrap .shareBt {
+  text-decoration-line: none;
+}
+.fiexd {
+  display: none;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(133, 133, 133, 0.8);
+  z-index: 9999;
+}
+.fiexd canvas {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+
+}
+.fiexd .closeAll {
+  position: fixed;
+  top: 10%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  font-size: 66px;
+  color: #242424;
+  font-family: FZLTCHGBK;
+}
+.fiexd .saveBt {
+  position: fixed;
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  font-size: 20px;
+  color: #242424;
+  font-family: FZLTCHGBK;
+}
