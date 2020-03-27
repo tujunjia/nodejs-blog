@@ -40,6 +40,11 @@ router.post(["/share"], function(req, res) {
   
 } )
 
+//助力分享页面渲染
+router.get("/time", function(req, res) {
+  res.render("./setTime/index.html", {title: "定时器"})
+})
+
 
 
 
